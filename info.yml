@@ -15,8 +15,7 @@ type: normal
 
 # This is the number of concurrent connections that a container should be able to handle.
 # This will be tested by the test script
-# Adam: I think it can handle much more concurrent connections, but exploitation is probabilistic, so more than this fails the tests
-concurrent_connections: 1
+concurrent_connections: 8
 
 authors:
   - adamd
