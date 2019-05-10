@@ -8,7 +8,7 @@ violates_flag_format: false # if this is not "true", the flag is verfied against
 
 allow_egress: False
 
-flag: "OOO{Maybe ur lying to yourself. Maybe ur NoT the white hat pretending 2 be a black hat. Maybe you’re the black hat pretending 2 be the white hat.}" # this is the flag of the service
+flag: "OOO{Maybe ur lying to yourself. Maybe ur NoT the white hat pretending 2 be a black hat. Maybe you're the black hat pretending 2 be the white hat.}" # this is the flag of the service
 
 # Type can be normal or king_of_the_hill
 type: normal
