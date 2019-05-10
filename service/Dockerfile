@@ -8,6 +8,7 @@ run chmod 755 /speedrun-004
 run touch /flag && chmod 644 /flag && echo "OOO{Maybe ur lying to yourself. Maybe ur NoT the white hat pretending 2 be a black hat. Maybe you’re the black hat pretending 2 be the white hat.}" > /flag
 copy service.conf /service.conf
 copy wrapper /wrapper
+copy banner_fail /
 
 expose 31337
 
