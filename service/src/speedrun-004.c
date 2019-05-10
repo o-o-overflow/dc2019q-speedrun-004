@@ -60,6 +60,12 @@ int main(int argc, char** argv)
 {
    setvbuf(stdout, NULL, _IONBF, 0);
 
+   if (getenv("DEBUG") == NULL)
+   {
+	  alarm(5);
+   }
+
+
    say_hello();
    what_do_they_say();
    say_goodbye();
